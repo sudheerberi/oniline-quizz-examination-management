@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f1f5ff;
+    color: #172554;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(120deg, #1e3a8a, #3b82f6);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: white;
+    color: #1e40af;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    width: 280px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #0002;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+.container {
+    background: white;
+    width: 380px;
+    margin: 70px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #0002;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 25px;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+button:hover {
+    background: #172554;
+}
+
+.container p {
+    margin-top: 15px;
+}
